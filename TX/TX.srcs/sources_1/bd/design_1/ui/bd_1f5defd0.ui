@@ -1,0 +1,29 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port clk_in1_0 -pg 1 -y -120 -defaultsOSRD
+preplace port TX_OUT_0 -pg 1 -y 0 -defaultsOSRD
+preplace port parity_enable_0 -pg 1 -y 40 -defaultsOSRD
+preplace port busy_0 -pg 1 -y 20 -defaultsOSRD
+preplace port Data_Valid_0 -pg 1 -y 20 -defaultsOSRD
+preplace port parity_type_0 -pg 1 -y 60 -defaultsOSRD
+preplace port RST_0 -pg 1 -y -20 -defaultsOSRD
+preplace portBus P_DATA_0 -pg 1 -y 0 -defaultsOSRD
+preplace inst UART_TX_0 -pg 1 -lvl 2 -y 10 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -y -120 -defaultsOSRD
+preplace netloc Data_Valid_0_1 1 0 2 NJ 20 NJ
+preplace netloc UART_TX_0_busy 1 2 1 N
+preplace netloc parity_enable_0_1 1 0 2 NJ 40 NJ
+preplace netloc parity_type_0_1 1 0 2 NJ 60 NJ
+preplace netloc clk_in1_0_1 1 0 1 N
+preplace netloc clk_wiz_0_clk_out1 1 1 1 200
+preplace netloc RST_0_1 1 0 2 NJ -20 N
+preplace netloc P_DATA_0_1 1 0 2 NJ 0 NJ
+preplace netloc UART_TX_0_TX_OUT 1 2 1 N
+levelinfo -pg 1 -10 110 340 490 -top -180 -bot 280
+",
+}
+{
+   da_clkrst_cnt: "1",
+}

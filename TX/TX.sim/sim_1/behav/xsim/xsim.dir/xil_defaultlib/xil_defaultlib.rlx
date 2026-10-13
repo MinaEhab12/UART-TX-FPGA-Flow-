@@ -1,0 +1,11 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/D/UART_TX/Serializer.v,1787847371,verilog,,C:/D/UART_TX/UART_TX.v,,Serializer,,,,,,,,
+C:/D/UART_TX/TX/TX.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/D/UART_TX/UART_TX.v,1787847371,verilog,,C:/D/UART_TX/mux.v,,UART_TX,,,,,,,,
+C:/D/UART_TX/UART_TX_TB.v,1788102306,verilog,,,,UART_TX_TB,,,,,,,,
+C:/D/UART_TX/mux.v,1787847371,verilog,,C:/D/UART_TX/parity_calc.v,,mux,,,,,,,,
+C:/D/UART_TX/parity_calc.v,1787847371,verilog,,C:/D/UART_TX/uart_tx_fsm.v,,parity_calc,,,,,,,,
+C:/D/UART_TX/uart_tx_fsm.v,1787847371,verilog,,C:/D/UART_TX/UART_TX_TB.v,,uart_tx_fsm,,,,,,,,

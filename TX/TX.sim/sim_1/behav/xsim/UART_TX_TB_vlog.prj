@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../Serializer.v" \
+"../../../../../UART_TX.v" \
+"../../../../../mux.v" \
+"../../../../../parity_calc.v" \
+"../../../../../uart_tx_fsm.v" \
+"../../../../../UART_TX_TB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

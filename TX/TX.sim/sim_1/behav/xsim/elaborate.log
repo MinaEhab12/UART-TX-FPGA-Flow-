@@ -1,0 +1,22 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 751a3bc834ef428e8413b01ac933a900 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot UART_TX_TB_behav xil_defaultlib.UART_TX_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/D/UART_TX/UART_TX.v" Line 2. Module UART_TX doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/D/UART_TX/uart_tx_fsm.v" Line 2. Module uart_tx_fsm doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/D/UART_TX/Serializer.v" Line 2. Module Serializer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/D/UART_TX/mux.v" Line 2. Module mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/D/UART_TX/parity_calc.v" Line 1. Module parity_calc doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_tx_fsm
+Compiling module xil_defaultlib.Serializer
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.parity_calc
+Compiling module xil_defaultlib.UART_TX
+Compiling module xil_defaultlib.UART_TX_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot UART_TX_TB_behav
